@@ -8,8 +8,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 07 Feb 2018 09:01:47 GMT</pubDate>
+    <pubDate>Wed, 07 Feb 2018 16:35:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>堆排序</title>
+      <link>http://yoursite.com/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
+      <guid>http://yoursite.com/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
+      <pubDate>Thu, 08 Feb 2018 00:16:09 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;我们可以把优先队列变成一种排序方法，将所有元素插入到一个查找最大元素的优先队列，然后重复调用删除最大元素来将它们按顺序删去。在前一篇《优先队列》一文中，我们已经演示了删除的原理：将根节点（即数组arr[1]的元素）与数组最后一位元素调换位置，此时最后一位为最大的元素。若能够
+          
+        
+      
+      </description>
+      
+      <comments>http://yoursite.com/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>优先队列</title>

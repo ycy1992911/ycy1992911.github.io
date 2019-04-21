@@ -4,151 +4,112 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mike Learns CS</title>
-    <link>http://yoursite.com/</link>
+    <link>http://www.chongyangyan.me/</link>
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 21 Apr 2019 14:31:37 GMT</pubDate>
+    <pubDate>Sun, 21 Apr 2019 17:41:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>符号表</title>
-      <link>http://yoursite.com/2018/02/26/%E7%AC%A6%E5%8F%B7%E8%A1%A8/</link>
-      <guid>http://yoursite.com/2018/02/26/%E7%AC%A6%E5%8F%B7%E8%A1%A8/</guid>
+      <link>http://www.chongyangyan.me/2018/02/26/%E7%AC%A6%E5%8F%B7%E8%A1%A8/</link>
+      <guid>http://www.chongyangyan.me/2018/02/26/%E7%AC%A6%E5%8F%B7%E8%A1%A8/</guid>
       <pubDate>Mon, 26 Feb 2018 15:57:35 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;h1 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h1&gt;&lt;p&gt;为了高效检索信息（如海量交易数据中查找某个用户的多次交易数据，某个演员演过哪些电影），我们需要用一种 &lt;strong&gt;键 -
-          
-        
+        &lt;p&gt;为了高效检索信息（如海量交易数据中查找某个用户的多次交易数据，某个演员演过哪些电影），我们需要用一种 &lt;strong&gt;键 - 值&lt;/strong&gt; 的数据结构来表示数据之间的关系，这就引出了符号表的概念，它还有其他的名字，叫做 &lt;strong&gt;字典&lt;/strong&gt; 或 &lt;strong&gt;索引&lt;/strong&gt;。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/26/%E7%AC%A6%E5%8F%B7%E8%A1%A8/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/26/%E7%AC%A6%E5%8F%B7%E8%A1%A8/#disqus_thread</comments>
     </item>
     
     <item>
       <title>排序的性能特点</title>
-      <link>http://yoursite.com/2018/02/26/%E6%8E%92%E5%BA%8F%E7%9A%84%E6%80%A7%E8%83%BD%E7%89%B9%E7%82%B9/</link>
-      <guid>http://yoursite.com/2018/02/26/%E6%8E%92%E5%BA%8F%E7%9A%84%E6%80%A7%E8%83%BD%E7%89%B9%E7%82%B9/</guid>
+      <link>http://www.chongyangyan.me/2018/02/26/%E6%8E%92%E5%BA%8F%E7%9A%84%E6%80%A7%E8%83%BD%E7%89%B9%E7%82%B9/</link>
+      <guid>http://www.chongyangyan.me/2018/02/26/%E6%8E%92%E5%BA%8F%E7%9A%84%E6%80%A7%E8%83%BD%E7%89%B9%E7%82%B9/</guid>
       <pubDate>Mon, 26 Feb 2018 15:36:37 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;p&gt;除了希尔排序（复杂度只是一个近似）、插入排序（复杂度取决于输入元素的排列情况）和快速排序的两个版本（复杂度与概率相关，取决于输入元素的分布情况）之外，将这些运行时间的增长数量及乘以适当的常数就能大致估计出其运行时间。这里的常数有时和算法有关（比如堆排序的比较次数是归并排序的
-          
-        
+        &lt;p&gt;除了希尔排序（复杂度只是一个近似）、插入排序（复杂度取决于输入元素的排列情况）和快速排序的两个版本（复杂度与概率相关，取决于输入元素的分布情况）之外，将这些运行时间的增长数量及乘以适当的常数就能大致估计出其运行时间。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/26/%E6%8E%92%E5%BA%8F%E7%9A%84%E6%80%A7%E8%83%BD%E7%89%B9%E7%82%B9/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/26/%E6%8E%92%E5%BA%8F%E7%9A%84%E6%80%A7%E8%83%BD%E7%89%B9%E7%82%B9/#disqus_thread</comments>
     </item>
     
     <item>
-      <title>堆排序</title>
-      <link>http://yoursite.com/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
-      <guid>http://yoursite.com/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
+      <title>堆排序（Heap Sort）</title>
+      <link>http://www.chongyangyan.me/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
+      <guid>http://www.chongyangyan.me/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
       <pubDate>Thu, 08 Feb 2018 00:16:09 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;h1 id=&quot;堆排序的原理&quot;&gt;&lt;a href=&quot;#堆排序的原理&quot; class=&quot;headerlink&quot;
-          
-        
+        &lt;p&gt;我们可以把优先队列变成一种排序方法，将所有元素插入到一个查找最大元素的优先队列，然后重复调用删除最大元素来将它们按顺序删去。在前一篇《优先队列》一文中，我们已经演示了删除的原理：将根节点（即数组arr[1]的元素）与数组最后一位元素调换位置，此时最后一位为最大的元素。若能够增加一个循环，每次循环范围减小1，则能够将当前的最大元素放在当前删除范围的最后一位。直到循环范围等于1，此时整个数组升序。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/08/%E5%A0%86%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
     </item>
     
     <item>
-      <title>优先队列</title>
-      <link>http://yoursite.com/2018/02/07/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</link>
-      <guid>http://yoursite.com/2018/02/07/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</guid>
+      <title>优先队列（Priority Queue）</title>
+      <link>http://www.chongyangyan.me/2018/02/07/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</link>
+      <guid>http://www.chongyangyan.me/2018/02/07/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/</guid>
       <pubDate>Wed, 07 Feb 2018 15:12:09 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;h1 id=&quot;我们遇到了什么问题？&quot;&gt;&lt;a href=&quot;#我们遇到了什么问题？&quot; class=&quot;headerlink&quot;
-          
-        
+        &lt;p&gt;许多程序都需要处理有序的元素，但不一定要求它们全部有序，或是不一定要一次就将它们排序。很多情况下我们需要收集一些元素，处理当前最大的元素，在收集更多的元素，再处理当前最大的元素。例如，绝大多数手机分配给来电的优先级都会比游戏程序高。&lt;/p&gt;
+&lt;p&gt;又比如，我们需要从10亿个元素中选出最大的是个，这时将一个10亿规模的数组排序显然很不明智。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/07/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/07/%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97/#disqus_thread</comments>
     </item>
     
     <item>
-      <title>快速排序</title>
-      <link>http://yoursite.com/2018/02/04/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</link>
-      <guid>http://yoursite.com/2018/02/04/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</guid>
+      <title>快速排序（Quick Sort）</title>
+      <link>http://www.chongyangyan.me/2018/02/04/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</link>
+      <guid>http://www.chongyangyan.me/2018/02/04/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</guid>
       <pubDate>Sun, 04 Feb 2018 12:41:11 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;h1 id=&quot;快速排序（Quick-Sort）&quot;&gt;&lt;a href=&quot;#快速排序（Quick-Sort）&quot; class=&quot;headerlink&quot; title=&quot;快速排序（Quick Sort）&quot;&gt;&lt;/a&gt;快速排序（Quick
-          
-        
+        &lt;p&gt;快速排序可能是应用最广泛的排序算法，它是原地排序（只需要一个很小的辅助栈），且将长度为N的数组排序所需的时间和NlgN成正比。&lt;/p&gt;
+&lt;p&gt;快速排序是一种分治的排序算法，将一个数组分成两个子数组，再将两部分独立排序，与归并排序是互补的：归并排序将数组分成两个子数组分别排序，并将有序的子数组归并以将整个数组排序；而快速排序将数组排序的方式则是当两个子数组都有序时整个数组也就自然有序了。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/04/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/04/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
     </item>
     
     <item>
       <title>常见算法的时间空间复杂度</title>
-      <link>http://yoursite.com/2018/02/02/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</link>
-      <guid>http://yoursite.com/2018/02/02/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</guid>
+      <link>http://www.chongyangyan.me/2018/02/02/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</link>
+      <guid>http://www.chongyangyan.me/2018/02/02/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</guid>
       <pubDate>Thu, 01 Feb 2018 20:38:49 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;p&gt;&lt;img src=&quot;/uploads/bigoposter.png&quot;
-          
-        
+        &lt;p&gt;以下 Cheetsheet 收录了常见算法的时间空间复杂度。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/02/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/02/%E5%B8%B8%E8%A7%81%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/#disqus_thread</comments>
     </item>
     
     <item>
-      <title>归并排序</title>
-      <link>http://yoursite.com/2018/02/01/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</link>
-      <guid>http://yoursite.com/2018/02/01/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</guid>
+      <title>归并排序（Merge sort）</title>
+      <link>http://www.chongyangyan.me/2018/02/01/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</link>
+      <guid>http://www.chongyangyan.me/2018/02/01/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</guid>
       <pubDate>Thu, 01 Feb 2018 09:23:38 GMT</pubDate>
       <description>
       
-        
-        
-          
-          
-            &lt;h1 id=&quot;归并排序-（Merge-sort）&quot;&gt;&lt;a href=&quot;#归并排序-（Merge-sort）&quot; class=&quot;headerlink&quot; title=&quot;归并排序 （Merge sort）&quot;&gt;&lt;/a&gt;归并排序 （Merge
-          
-        
+        &lt;p&gt;归并操作：即将两个有序的数组归并成一个更大的有序数组。人们根据这个操作发明了简单的递归排序算法：&lt;em&gt;归并排序&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;归并排序最吸引人的性质是它能够保证将长度为N的数组排序时间和 NlogN 成正比。其本身体现的是一种分治思想。分为&lt;strong&gt;自顶向下&lt;/strong&gt;和&lt;strong&gt;自底向上&lt;/strong&gt;两种实现方式，分别对应着递归与非递归。&lt;/p&gt;
       
       </description>
       
-      <comments>http://yoursite.com/2018/02/01/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
+      <comments>http://www.chongyangyan.me/2018/02/01/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/#disqus_thread</comments>
     </item>
     
   </channel>

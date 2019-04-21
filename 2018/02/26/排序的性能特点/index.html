@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Java, AI, Machine Learning, Tensorflow, Big Data, Computer Science" />
+  <meta name="keywords" content="排序," />
 
 
 
@@ -81,14 +81,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mike Learns CS">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="除了希尔排序（复杂度只是一个近似）、插入排序（复杂度取决于输入元素的排列情况）和快速排序的两个版本（复杂度与概率相关，取决于输入元素的分布情况）之外，将这些运行时间的增长数量及乘以适当的常数就能大致估计出其运行时间。这里的常数有时和算法有关（比如堆排序的比较次数是归并排序的两倍，而两者访问数组的次数都比快速排序多得多）下面是各种排序算法的性能特点：    算法名称 是否稳定 原地排序 时间复杂度">
+<meta name="keywords" content="排序">
+<meta property="og:type" content="article">
+<meta property="og:title" content="排序的性能特点">
+<meta property="og:url" content="http://yoursite.com/2018/02/26/排序的性能特点/index.html">
 <meta property="og:site_name" content="Mike Learns CS">
+<meta property="og:description" content="除了希尔排序（复杂度只是一个近似）、插入排序（复杂度取决于输入元素的排列情况）和快速排序的两个版本（复杂度与概率相关，取决于输入元素的分布情况）之外，将这些运行时间的增长数量及乘以适当的常数就能大致估计出其运行时间。这里的常数有时和算法有关（比如堆排序的比较次数是归并排序的两倍，而两者访问数组的次数都比快速排序多得多）下面是各种排序算法的性能特点：    算法名称 是否稳定 原地排序 时间复杂度">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-01T13:11:19.378Z">
+<meta property="og:updated_time" content="2018-02-26T07:56:26.335Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mike Learns CS">
+<meta name="twitter:title" content="排序的性能特点">
+<meta name="twitter:description" content="除了希尔排序（复杂度只是一个近似）、插入排序（复杂度取决于输入元素的排列情况）和快速排序的两个版本（复杂度与概率相关，取决于输入元素的分布情况）之外，将这些运行时间的增长数量及乘以适当的常数就能大致估计出其运行时间。这里的常数有时和算法有关（比如堆排序的比较次数是归并排序的两倍，而两者访问数组的次数都比快速排序多得多）下面是各种排序算法的性能特点：    算法名称 是否稳定 原地排序 时间复杂度">
 
 
 
@@ -118,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/02/26/排序的性能特点/"/>
 
 
 
 
 
-  <title>分类 | Mike Learns CS</title>
+  <title>排序的性能特点 | Mike Learns CS</title>
   
 
 
@@ -249,40 +253,250 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/26/排序的性能特点/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mike Yan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/default_avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mike Learns CS">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline"></h2>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                目前共计 2 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/算法/">算法</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/算法-第四版/">算法 第四版</a><span class="category-list-count">6</span></li></ul>
-            </div>
-          </div>
+          <h2 class="post-title" itemprop="name headline">排序的性能特点</h2>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-26T15:36:37Z">
+                2018-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/算法-第四版/" itemprop="url" rel="index">
+                    <span itemprop="name">算法 第四版</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/02/26/排序的性能特点/" class="leancloud_visitors" data-flag-title="排序的性能特点">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>除了希尔排序（复杂度只是一个近似）、插入排序（复杂度取决于输入元素的排列情况）和快速排序的两个版本（复杂度与概率相关，取决于输入元素的分布情况）之外，将这些运行时间的增长数量及乘以适当的常数就能大致估计出其运行时间。这里的常数有时和算法有关（比如堆排序的比较次数是归并排序的两倍，而两者访问数组的次数都比快速排序多得多）下面是各种排序算法的性能特点：<br><br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">算法名称</th>
+<th style="text-align:center">是否稳定</th>
+<th style="text-align:center">原地排序</th>
+<th style="text-align:center">时间复杂度</th>
+<th style="text-align:center">空间复杂度</th>
+<th style="text-align:center">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">选择排序</td>
+<td style="text-align:center">否</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">N^2</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">插入排序</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">介于 N 和 N^2 之间</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">取决于输入元素的排列情况</td>
+</tr>
+<tr>
+<td style="text-align:center">希尔排序</td>
+<td style="text-align:center">否</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">NLogN?<br><br>N^(6/5)?</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">快速排序</td>
+<td style="text-align:center">否</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">NlogN</td>
+<td style="text-align:center">LgN</td>
+<td style="text-align:center">运行效率由概率保证</td>
+</tr>
+<tr>
+<td style="text-align:center">三向快速排序</td>
+<td style="text-align:center">否</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">介于 N 和 NLogN 之间</td>
+<td style="text-align:center">LgN</td>
+<td style="text-align:center">运行效率由概率保证，同时也取决于输入元素的分布情况</td>
+</tr>
+<tr>
+<td style="text-align:center">归并排序</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">否</td>
+<td style="text-align:center">NLogN</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">堆排序</td>
+<td style="text-align:center">否</td>
+<td style="text-align:center">是</td>
+<td style="text-align:center">NLogN</td>
+<td style="text-align:center">1</td>
+</tr>
+</tbody>
+</table>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/排序/" <i class="fa fa-tag"></i> 排序</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/02/08/堆排序/" rel="next" title="堆排序">
+                <i class="fa fa-chevron-left"></i> 堆排序
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/02/26/符号表/" rel="prev" title="符号表">
+                符号表 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 

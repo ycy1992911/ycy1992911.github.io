@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Java, AI, Machine Learning, Tensorflow, Big Data, Computer Science" />
+  <meta name="keywords" content="查找," />
 
 
 
@@ -81,14 +81,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Mike Learns CS">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="需求为了高效检索信息（如海量交易数据中查找某个用户的多次交易数据，某个演员演过哪些电影），我们需要用一种 键 - 值 的数据结构来表示数据之间的关系，这就引出了符号表的概念，它还有其他的名字，叫做 字典 或 索引。 查找符号表有很多种实现方法，比较有代表性的是：链表、数组以及散列表的实现。我们来看看，对于不同的实现方法，查找的性能如何？ 本片文先介绍无序 链表中的顺序查找 以及 有序数组中的二分查">
+<meta name="keywords" content="查找">
+<meta property="og:type" content="article">
+<meta property="og:title" content="符号表">
+<meta property="og:url" content="http://yoursite.com/2018/02/26/符号表/index.html">
 <meta property="og:site_name" content="Mike Learns CS">
+<meta property="og:description" content="需求为了高效检索信息（如海量交易数据中查找某个用户的多次交易数据，某个演员演过哪些电影），我们需要用一种 键 - 值 的数据结构来表示数据之间的关系，这就引出了符号表的概念，它还有其他的名字，叫做 字典 或 索引。 查找符号表有很多种实现方法，比较有代表性的是：链表、数组以及散列表的实现。我们来看看，对于不同的实现方法，查找的性能如何？ 本片文先介绍无序 链表中的顺序查找 以及 有序数组中的二分查">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-01T13:11:19.378Z">
+<meta property="og:updated_time" content="2019-04-21T09:53:13.446Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mike Learns CS">
+<meta name="twitter:title" content="符号表">
+<meta name="twitter:description" content="需求为了高效检索信息（如海量交易数据中查找某个用户的多次交易数据，某个演员演过哪些电影），我们需要用一种 键 - 值 的数据结构来表示数据之间的关系，这就引出了符号表的概念，它还有其他的名字，叫做 字典 或 索引。 查找符号表有很多种实现方法，比较有代表性的是：链表、数组以及散列表的实现。我们来看看，对于不同的实现方法，查找的性能如何？ 本片文先介绍无序 链表中的顺序查找 以及 有序数组中的二分查">
 
 
 
@@ -118,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/02/26/符号表/"/>
 
 
 
 
 
-  <title>分类 | Mike Learns CS</title>
+  <title>符号表 | Mike Learns CS</title>
   
 
 
@@ -249,40 +253,179 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/26/符号表/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mike Yan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/default_avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mike Learns CS">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline"></h2>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                目前共计 2 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/算法/">算法</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/算法-第四版/">算法 第四版</a><span class="category-list-count">6</span></li></ul>
-            </div>
-          </div>
+          <h2 class="post-title" itemprop="name headline">符号表</h2>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-26T15:57:35Z">
+                2018-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/算法-第四版/" itemprop="url" rel="index">
+                    <span itemprop="name">算法 第四版</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/02/26/符号表/" class="leancloud_visitors" data-flag-title="符号表">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>为了高效检索信息（如海量交易数据中查找某个用户的多次交易数据，某个演员演过哪些电影），我们需要用一种 <strong>键 - 值</strong> 的数据结构来表示数据之间的关系，这就引出了符号表的概念，它还有其他的名字，叫做 <strong>字典</strong> 或 <strong>索引</strong>。</p>
+<h1 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h1><p>符号表有很多种实现方法，比较有代表性的是：<strong>链表</strong>、<strong>数组</strong>以及<strong>散列表</strong>的实现。我们来看看，对于不同的实现方法，查找的性能如何？</p>
+<p>本片文先介绍无序 链表中的顺序查找 以及 有序数组中的二分查找，并对二分查找进行分析。</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/查找/" <i class="fa fa-tag"></i> 查找</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/02/26/排序的性能特点/" rel="next" title="排序的性能特点">
+                <i class="fa fa-chevron-left"></i> 排序的性能特点
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -315,8 +458,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -409,6 +561,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#需求"><span class="nav-text">需求</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#查找"><span class="nav-text">查找</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

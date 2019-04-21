@@ -321,6 +321,7 @@ header .nav {
 }
 
 header .logo-link img {
+    display: none;
     height: 60px
 }
 

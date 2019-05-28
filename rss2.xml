@@ -8,11 +8,31 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 28 May 2019 15:19:07 GMT</pubDate>
+    <pubDate>Tue, 28 May 2019 16:51:13 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>What is ARTS</title>
+      <title>Interface Oriented Programming</title>
+      <link>http://www.chongyangyan.me/2019/04/23/Design%20Patterns/</link>
+      <guid>http://www.chongyangyan.me/2019/04/23/Design%20Patterns/</guid>
+      <pubDate>Mon, 22 Apr 2019 20:16:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;The-Current-Design&quot;&gt;&lt;a href=&quot;#The-Current-Design&quot; class=&quot;headerlink&quot; title=&quot;The Current Design&quot;&gt;&lt;/a&gt;The Current Design&lt;/h1&gt;&lt;p&gt;Let’s
+          
+        
+      
+      </description>
+      
+      <comments>http://www.chongyangyan.me/2019/04/23/Design%20Patterns/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>ARTS Punch In Schedule</title>
       <link>http://www.chongyangyan.me/2019/04/23/What%20is%20ARTS/</link>
       <guid>http://www.chongyangyan.me/2019/04/23/What%20is%20ARTS/</guid>
       <pubDate>Mon, 22 Apr 2019 20:16:00 GMT</pubDate>

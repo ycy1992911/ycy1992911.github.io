@@ -8,7 +8,7 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 28 May 2019 16:51:59 GMT</pubDate>
+    <pubDate>Tue, 28 May 2019 16:57:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -19,7 +19,7 @@
       <description>
       
         &lt;h1 id=&quot;The-Current-Design&quot;&gt;&lt;a href=&quot;#The-Current-Design&quot; class=&quot;headerlink&quot; title=&quot;The Current Design&quot;&gt;&lt;/a&gt;The Current Design&lt;/h1&gt;&lt;p&gt;Let’s take a look on the design below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;media/15590593372188.jpg&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/15590593372188.jpg&quot; alt&gt;&lt;/p&gt;
 &lt;p&gt;In the diagram above, it is a standard object oriented design with a super-class of Duck, and other sub-classes to inherit from it. All the ducks can quack and swim, thus the jobs are handled to the super-class. Because each type of ducks(sub-classes) have different outlooks, so that the display() method in Duck is abstract.&lt;/p&gt;
 &lt;h2 id&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title&gt;&lt;/a&gt;
       
